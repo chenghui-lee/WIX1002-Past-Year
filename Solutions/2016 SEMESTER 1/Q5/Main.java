@@ -19,6 +19,12 @@ public class Main {
         p.payment("friday", 100);
         p.payment("tuesday", 220);
         System.out.println(p.toString());
+
+	if (r.getReward()>p.getReward())
+            System.out.println("The best card is Cash Rebate Card.");
+        else
+            System.out.println("The best card is Point Reward Card.");
+
     }
     
 }
