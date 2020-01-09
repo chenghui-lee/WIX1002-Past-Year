@@ -23,6 +23,7 @@ public class DayOfTheWeek {
                     m = 14;
                     max = 29;
                     y -= 1;
+					break;
                 } else {
                     m = 14;
                     max = 28;
