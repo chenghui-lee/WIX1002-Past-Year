@@ -1,4 +1,4 @@
 # WIX1002-Pass-Year
-My solutions for WIX1002 (Fundamentals of Programming) Pass Year Examination starting from 2016 to 2019.
+My solutions for WIX1002 (Fundamentals of Programming) Pass Year Examination starting from 2016 to 2020.
 
-Feel free to take/reuse for study purpose.
+If you noticed any error, feel free to fork and open a pull request.
