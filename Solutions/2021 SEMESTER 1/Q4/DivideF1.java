@@ -16,8 +16,6 @@ public class DivideF1 extends Eleven{
             int left = 0, right = 0;
             int[] leftNum = new int[6], rightNum = new int[6]; // not possible to exceed 6 digits
             int i = 0, j = 0; // to iterate through the arrays later on
-            Arrays.fill(leftNum, -1);
-            Arrays.fill(rightNum, -1);
             
             res += num + " : |x| = | ("; // output later on
             int t = num; // store the number temporary
@@ -40,7 +38,7 @@ public class DivideF1 extends Eleven{
             for(i=i-1; i>0; i--) res += leftNum[i] + " + ";
             res += leftNum[0] + ") - (";
             for(j=j-1; j>0; j--) res += rightNum[j] + " + ";
-            res += rightNum[0] + ") | = " + Math.abs(left - right);
+            res += rightNum[0] + ") | = " + abs;
             if (ok) res += "\n" + abs + " modulus 11 = 0, " + num + " is divisible by 11\n\n";
             else res += "\n" + abs + " modulus 11 is not equal 0, " + num + " is not divisible by 11\n\n";
         }
